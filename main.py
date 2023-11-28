@@ -1,21 +1,3 @@
-"""
-Crear minijuego de piedra, papel o tijera cumpliendo con los siguientes enunciados:
-1. Reglas del juego:
-    - Piedra gana a tijera
-    - Tijera gana a papel
-    - Papel gana a piedra
-    - El minijuego es multijugador y el equipo juega el papel del oponente y elige un elemento aleatorio de la lista de elementos
-2. Interacción con el usuario:
-    - La consola se usa para interactuar con el jugador.
-    - El jugador puede elegir una de las tres opciones: rock, paper o scissors.
-    - El jugador puede elegir si vuelve a jugar.
-    - Se debe advertir al jugador si introduce una opción no válida.
-    - El jugador ve su puntuación al final del juego.
-3. Validación de la entrada de usuario:
-    - En cada ronda, el jugador debe entrar en una de las opciones de la lista y ser informado de si ganó, perdió o empató con el oponente.
-    - El minijuego debe controlar las entradas del usuario, colocarlas en minúsculas e informar al usuario si la opción no es válida.
-    - Al final de cada ronda, el jugador debe responder si quiere jugar de nuevo o no.
-"""
 import random
 import os
 import time
